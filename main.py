@@ -200,8 +200,6 @@ async def listar_imagenes(presentacion_id: int, user_id: int):
         return JSONResponse(content={"urls": []}, status_code=404)
 
 
-
-
 @app.delete("/presentaciones/{presentacion_id}/imagenes/{filename}")
 async def eliminar_imagen(presentacion_id: int, filename: str):
     try:
