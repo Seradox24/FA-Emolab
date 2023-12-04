@@ -11,6 +11,7 @@ fastapi = "^0.100.0"
 uvicorn = "^0.23.1"
 peewee = "^3.17.0"
 psycopg2 = "^2.9.9"
+python-multipart = "^0.0.6"
 
 
 [build-system]
