@@ -36,11 +36,11 @@ def startup():
     connection.create_tables([User, Formulario, Presentacion,Imagen])
     
     
-@app.on_event('shutdown')
-def shutdown():
-    if not connection.is_closed():
-        connection.close()
-        print('close....')
+# @app.on_event('shutdown')
+# def shutdown():
+#     if not connection.is_closed():
+#         connection.close()
+#         print('close....')
         
     
     
